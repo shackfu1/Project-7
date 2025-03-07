@@ -1,6 +1,4 @@
-all: lswc redirout
+all: myalloc
 
-lswc: lswc.c
-	gcc -Wall -Wextra -o lswc lswc.c
-redirout: redirout.c
-	gcc -Wall -Wextra -o redirout redirout.c
+myalloc: myalloc.c
+	gcc -Wall -Wextra -o myalloc myalloc.c
